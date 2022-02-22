@@ -4,21 +4,21 @@ const chalk = require('chalk')
 //━━━━━━━━━━━━━━━[ WEBSITE API ]━━━━━━━━━━━━━━━━━//
 
 global.APIs = {
-zeroyt7: 'https://zeroyt7-api.xyz',
+zeroyt7: 'Blom jadi banh',
 }
 
 //━━━━━━━━━━━━━━━[ APIKEY WEBSITE API ]━━━━━━━━━━━━━━━━━//
 
 global.APIKeys = {
-'https://zeroyt7-api.xyz': 'gysnzbsja',
+'blom jadi',
 }
 
 //━━━━━━━━━━━━━━━[ OTHER ]━━━━━━━━━━━━━━━━━//
 
-global.ownername = 'owner - sanzy'
-global.owner = ['6281276698054']
-global.packname = 'Sanzy'
-global.author = 'Gemoyy'
+global.ownername = 'owner - BLZXB5'
+global.owner = ['6283117436733']
+global.packname = 'DVT'
+global.author = 'Syah DVT'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
