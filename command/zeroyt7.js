@@ -4,20 +4,20 @@
 
 /**
 * Create By Zero YT7
-* Contact Me on wa.me/6285157740529
+* Contact Me on wa.me/6283117436733
 * Follow Me On All Sosial Media
-* Instagram : @Zero_YT7
-* Tiktok : @_zeroyt7
-* Github : Zero-YT7
-* Youtube : Zero YT7
+* Instagram : @syah_dvt
+* Tiktok : @blzxb5
+* Github : BLXB5
+* Youtube : BLZXB5
 **/
 
 /**
 * Thanks To
 * Allah S.W.T
 * Ortu
-* Zero YT7
-* Dhika Ardiant
+* Niskata Creator Bot
+* all team DVT
 * All Creator Bot
 * All Subscriber Ku
 **/
@@ -115,7 +115,7 @@ if (!m.key.fromMe) return
 //━━━━━━━━━━━━━━━[ CONSOLE MESSAGE ]━━━━━━━━━━━━━━━━━//
 
 if (m.message) {
-console.log(chalk.black(chalk.bgWhite('[ Zero YT7 ]')), chalk.black(chalk.bgGreen(new Date)), chalk.black(chalk.bgBlue(budy || m.mtype)) + '\n' + chalk.magenta('=> Dari'), chalk.green(pushname), chalk.yellow(m.sender) + '\n' + chalk.blueBright('=> Di'), chalk.green(m.isGroup ? pushname : 'Private Chat', m.chat))
+console.log(chalk.black(chalk.bgWhite('[ BLZXB5 ]')), chalk.black(chalk.bgGreen(new Date)), chalk.black(chalk.bgBlue(budy || m.mtype)) + '\n' + chalk.magenta('=> Dari'), chalk.green(pushname), chalk.yellow(m.sender) + '\n' + chalk.blueBright('=> Di'), chalk.green(m.isGroup ? pushname : 'Private Chat', m.chat))
 }
 
 //━━━━━━━━━━━━━━━[ SEND MESSAGE ]━━━━━━━━━━━━━━━━━//
@@ -146,7 +146,7 @@ zeroyt7.sendReadReceipt(m.chat, sender, [m.key.id])
 
 //━━━━━━━━━━━━━━━[ FAKE ]━━━━━━━━━━━━━━━━━//
 
-const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: fs.readFileSync('./image/sanzy2.jpg'), surface: 200, message: `𝑺𝒂𝒏𝒛𝒚`, orderTitle: 'Please Subscribe Youtube Sanzy YT', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6283117436733-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: fs.readFileSync('./image/sanzy2.jpg'), surface: 200, message: `DVT`, orderTitle: 'Please Subscribe Youtube ', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
 		
 //━━━━━━━━━━━━━━━[ FITURNYA ]━━━━━━━━━━━━━━━━━//
         
@@ -308,12 +308,12 @@ hydratedContentText: txt,
 hydratedButtons: [{
 urlButton: {
 displayText: '𝑹𝒆𝒔 𝑨𝒑𝒊',
-url: 'https://sanzykey.herokuapp.com/api'
+url: 'Blom ada'
 }
 }, {
 urlButton: {
 displayText: '𝒀𝒐𝒖𝒕𝒖𝒃𝒆 𝑶𝒘𝒏𝒆𝒓',
-url: 'https://youtube.com/c/sanzyyt/'
+url: 'https://youtube.com/c/BLXB5/'
 }
 }, {
 quickReplyButton: {
@@ -439,7 +439,7 @@ let teks = `*_Tag All Member_*\n*Pesan : ${q ? q : '-'}*\n\n`
 for (let mem of groupMembers) {
 teks += `${startnum++}. @${mem.id.split('@')[0]}\n`
 }
-teks += `\n⋙ Sanzy YT ⋘`
+teks += `\n⋙ DVT ⋘`
 zeroyt7.sendMessage(m.chat, { text: teks, mentions: groupMembers.map(a => a.id) }, { quoted: m })
 break
 
@@ -616,7 +616,7 @@ Translate : ${resultnya.Translate}`
 let buttons = [{buttonId: `doaharian`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: txt,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `DVT`,
 buttons: buttons,
 headerType: 2
 }
@@ -634,7 +634,7 @@ Translation : ${resultnya.translation}`
 let buttons = [{buttonId: `tahlil`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: txt,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `DVT`,
 buttons: buttons,
 headerType: 2
 }
@@ -652,7 +652,7 @@ Tnc : ${resultnya.tnc}`
 let buttons = [{buttonId: `wirid`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: txt,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `DVT`,
 buttons: buttons,
 headerType: 2
 }
@@ -682,7 +682,7 @@ Terjemahan : ${resultnya.terjemahan}`
 let buttons = [{buttonId: `bacaansholat`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: txt,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `DVT`,
 buttons: buttons,
 headerType: 2
 }
@@ -701,7 +701,7 @@ Terjemahan : ${resultnya.terjemahan}`
 let buttons = [{buttonId: `niatsholat`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: txt,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `DVT`,
 buttons: buttons,
 headerType: 2
 }
@@ -720,7 +720,7 @@ Translate En : ${resultnya.translate_en}`
 let buttons = [{buttonId: `asmaulhusna`, buttonText: {displayText: 'NEXT⏩'}, type: 1}]
 let buttonMessage = {
 text: txt,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `DVT`,
 buttons: buttons,
 headerType: 2
 }
@@ -742,16 +742,16 @@ degreesLongitude: 0,
 jpegThumbnail: imagenya,
 },
 hydratedContentText: `Title : ${webapi.result.title}\nQuality : ${webapi.result.quality}\nSize : ${webapi.result.size}\nViews : ${webapi.result.views}\nLikes : ${webapi.result.likes}\nDislike : ${webapi.result.dislike}\nChannel : ${webapi.result.channel}\nUpload Date : ${webapi.result.uploadDate}\nDesc : ${webapi.result.desc}`,
-hydratedFooterText: `𝑺𝒂𝒏𝒛𝒚`,
+hydratedFooterText: `DVT`,
 hydratedButtons: [{
 urlButton: {
 displayText: '𝑴𝒚 𝒊𝒏𝒔𝒕𝒂𝒈𝒓𝒂𝒎',
-url: `https://www.instagram.com/2kangsoul_/`
+url: `https://www.instagram.com/syah_dvt/`
 }
 }, {
 urlButton: {
 displayText: '𝑴𝒚 𝑭𝒂𝒄𝒆𝒃𝒐𝒐𝒌',
-url: 'https://www.facebook.com/Alyssaexct'
+url: 'https://www.facebook.com/'
 }
 }, {
 quickReplyButton: {
@@ -774,7 +774,7 @@ case 'ytmp44': {
 if (!text) throw 'Masukkan Link Youtube Nya'
 m.reply(mess.wait)
 webapi = await fetchJson(api('zeroyt7', '/ytMp4', { url: text }, 'apikey'))
-zeroyt7.sendMessage(m.chat, { video: { url: webapi.result.result }, caption: `𝑫𝒐𝒏𝒆.. 𝑫𝒐𝒏'𝒕 𝒇𝒐𝒓𝒈𝒆𝒕 𝒕𝒐 𝒔𝒖𝒃𝒔𝒄𝒓𝒊𝒃𝒆 𝒎𝒚 𝒚𝒐𝒖𝒕𝒖𝒃𝒆 : 𝒔𝒂𝒏𝒛𝒚 𝒚𝒕`}, { quoted: ftroli })
+zeroyt7.sendMessage(m.chat, { video: { url: webapi.result.result }, caption: `𝑫𝒐𝒏𝒆.. 𝑫𝒐𝒏'𝒕 𝒇𝒐𝒓𝒈𝒆𝒕 𝒕𝒐 𝒔𝒖𝒃𝒔𝒄𝒓𝒊𝒃𝒆 𝒎𝒚 𝒚𝒐𝒖𝒕𝒖𝒃𝒆`}, { quoted: ftroli })
 }
 break
 case 'ytmp3': {
@@ -791,7 +791,7 @@ degreesLongitude: 0,
 jpegThumbnail: imagenya,
 },
 hydratedContentText: `Title : ${webapi.result.title}\nSize : ${webapi.result.size}\nViews : ${webapi.result.views}\nLikes : ${webapi.result.likes}\nDislike : ${webapi.result.dislike}\nChannel : ${webapi.result.channel}\nUpload Date : ${webapi.result.uploadDate}\nDesc : ${webapi.result.desc}`,
-hydratedFooterText: `𝑺𝒂𝒏𝒛𝒚`,
+hydratedFooterText: `DVT`,
 hydratedButtons: [{
 urlButton: {
 displayText: '𝑹𝒆𝒔 𝑨𝒑𝒊',
@@ -800,7 +800,7 @@ url: `https://sanzykey.herokuapp.com/api`
 }, {
 urlButton: {
 displayText: '𝒀𝒐𝒖𝒕𝒖𝒃𝒆 𝑶𝒘𝒏𝒆𝒓',
-url: 'https://youtube.com/c/sanzyyt'
+url: 'https://youtube.com/c/'
 }
 }, {
 quickReplyButton: {
@@ -841,7 +841,7 @@ webapi = await fetchJson(api('zeroyt7', '/tiktokvideo', { url: text }, 'apikey')
 let buttons = [{buttonId: `nowm ${isUrl(text)}`, buttonText: {displayText: 'NO WM'}, type: 1},{buttonId: `wm ${isUrl(text)}`, buttonText: {displayText: 'WM'}, type: 1}]
 let buttonMessage = {
 text: `Silahkan Pilih File Yang Ingin Di Download`,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `DVT`,
 buttons: buttons,
 headerType: 2
 }
@@ -852,14 +852,14 @@ case 'nowm': {
 if (!text) throw 'Masukkan Link Tiktok Nya'
 m.reply(mess.wait)
 webapi = await fetchJson(api('zeroyt7', '/tiktokvideo', { url: text }, 'apikey'))
-zeroyt7.sendMessage(m.chat, { video: { url: webapi.result.result.nowm }, caption: `𝑫𝒐𝒏𝒆.. 𝑫𝒐𝒏'𝒕 𝒇𝒐𝒓𝒈𝒆𝒕 𝒕𝒐 𝒔𝒖𝒃𝒔𝒄𝒓𝒊𝒃𝒆 𝒎𝒚 𝒚𝒐𝒖𝒕𝒖𝒃𝒆 : 𝒔𝒂𝒏𝒛𝒚 𝒚𝒕`}, { quoted: ftroli })
+zeroyt7.sendMessage(m.chat, { video: { url: webapi.result.result.nowm }, caption: `𝑫𝒐𝒏𝒆.. 𝑫𝒐𝒏'𝒕 𝒇𝒐𝒓𝒈𝒆𝒕 𝒕𝒐 𝒔𝒖𝒃𝒔𝒄𝒓𝒊𝒃𝒆 𝒎𝒚 𝒚𝒐𝒖𝒕𝒖𝒃𝒆 `}, { quoted: ftroli })
 }
 break
 case 'wm': {
 if (!text) throw 'Masukkan Link Tiktok Nya'
 m.reply(mess.wait)
 webapi = await fetchJson(api('zeroyt7', '/tiktokvideo', { url: text }, 'apikey'))
-zeroyt7.sendMessage(m.chat, { video: { url: webapi.result.result.wm }, caption: `𝑫𝒐𝒏𝒆.. 𝑫𝒐𝒏'𝒕 𝒇𝒐𝒓𝒈𝒆𝒕 𝒕𝒐 𝒔𝒖𝒃𝒔𝒄𝒓𝒊𝒃𝒆 𝒎𝒚 𝒚𝒐𝒖𝒕𝒖𝒃𝒆 : 𝒔𝒂𝒏𝒛𝒚 𝒚𝒕`}, { quoted: ftroli })
+zeroyt7.sendMessage(m.chat, { video: { url: webapi.result.result.wm }, caption: `𝑫𝒐𝒏𝒆.. 𝑫𝒐𝒏'𝒕 𝒇𝒐𝒓𝒈𝒆𝒕 𝒕𝒐 𝒔𝒖𝒃𝒔𝒄𝒓𝒊𝒃𝒆 𝒎𝒚 𝒚𝒐𝒖𝒕𝒖𝒃𝒆 `}, { quoted: ftroli })
 }
 break
 case 'mediafiredl': {
@@ -869,7 +869,7 @@ webapi = await fetchJson(api('zeroyt7', '/mediafireD', { url: text }, 'apikey'))
 let buttons = [{buttonId: `mddl ${isUrl(text)}`, buttonText: {displayText: 'DOWNLOAD'}, type: 1}]
 let buttonMessage = {
 text: `File Berhasil Di Dapatkan\n\nNama : ${webapi.result.nama}\nSize : ${webapi.result.size}\nLink : ${webapi.result.link}\n\nSilahkan Klik Tombol Download Di Bawah Ini`,
-footerText: `𝑺𝒂𝒏𝒛𝒚`,
+footerText: `DVT`,
 buttons: buttons,
 headerType: 2
 }
